@@ -39,9 +39,9 @@ const router = createRouter({
       component: () => import('../views//Test.vue')
     },
     {
-      path: '/List',
-      name: 'List',
-      component: () => import('../views//List.vue')
+      path: '/ElementPlusStyle',
+      name: 'ElementPlusStyle',
+      component: () => import('../views/ElementPlusStyle.vue')
     },
   ]
 })
