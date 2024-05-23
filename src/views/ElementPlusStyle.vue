@@ -27,32 +27,32 @@ const pageSize3 = ref(50)
 :deep(.el-pagination.is-background .btn-prev),
 :deep(.el-pagination.is-background .el-pager li:not(.is-disabled)) {
     background-color: #fff;
-    border: 2px solid #ff0000;
+    border: 2px solid $main;
     border-radius: 5px;
-    color: #ff0000;
+    color: $main;
 
     &:hover {
-        background-color: #fed6d6;
+        background-color: $hover;
     }
 }
 
 // 分頁: 活動按鈕
 :deep(.el-pagination.is-background .el-pager li:not(.is-disabled).is-active) {
-    background-color: #ff0000;
+    background-color: $main;
     color: #fff;
 }
 
 // 分頁:輸入格
 :deep(.el-input) {
     background-color: #fff;
-    color: #ff0000;
-    border: 2px solid #ff0000;
+    color: $main;
+    border: 2px solid $main;
     border-radius: 5px;
 }
 
 // 分頁:文字、輸入格內文字
 :deep(.el-pagination__goto),
 :deep(.el-input__inner) {
-    color: #ff0000;
+    color: $main;
 }
 </style>

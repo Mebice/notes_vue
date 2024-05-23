@@ -36,7 +36,7 @@ const hideDropdown = () => {
 <style lang="scss" scoped>
 .headershow {
     height: 40px;
-    background-color: #d42d2d;
+    background-color: $main;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -79,7 +79,7 @@ const hideDropdown = () => {
             display: flex;
             flex-direction: column;
             align-items: center;
-            color: #ff0000;
+            color: $main;
 
             &:hover {
                 background-color: #f1f1f1;

@@ -7,6 +7,6 @@
 
 <style lang="scss" scoped>
 h1 {
-    color: #c92a2a;
+    color: $main;
 }
 </style>
